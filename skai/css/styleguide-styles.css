@@ -1,0 +1,152 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Six Caps', sans-serif;*/
+/*font-family: 'Cabin', sans-serif;*/
+
+body {
+    background: url("../img/bg-img-white-100.jpg");
+    background-size: 100%;
+}
+
+.container-fluid {
+    margin: 50px;
+}
+
+#title-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 5rem;
+}
+
+.header-text {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 4rem;
+}
+
+#prepared-by {
+    margin-top: 0;
+}
+
+.logos {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.logo-height {
+    height: 325px;
+}
+
+.diamond {
+    margin: 20px;
+}
+
+.cabin {
+    font-family: 'Cabin', sans-serif;
+    font-size: 5em;
+}
+
+.cabin-copy {
+    padding-top: 50px;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+.raleway-copy {
+    padding-top: 5px;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-copy {
+    padding-top: 10px;
+}
+
+.section {
+    margin-left: 100px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading1 {
+    font-size: 4em;
+}
+
+.heading2 {
+    font-size: 3.5em;
+}
+
+.heading3 {
+    font-size: 3em;
+}
+
+.heading4 {
+    font-size: 2.5em;
+}
+
+.heading5 {
+    font-size: 2em;
+}
+
+.heading6 {
+    font-size: 1.5em;
+}
+
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #EE040E;
+}
+
+a:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #EE040E;
+    text-decoration: none;
+}
+
+.icons {
+    max-width: 50px;
+}
+
+.raleway-italic {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.blockquote {
+    background-color: black;
+    color: #F5efe6;
+    padding: 25px;
+}
+
+.lg-favi {
+    max-width: 100px;
+}
+
+.md-favi {
+    max-width: 40px;
+}
+
+.sm-favi {
+    max-width: 20px;
+}
+
+ul {
+    list-style-image: url("../img/icons/location-icon.svg");
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
