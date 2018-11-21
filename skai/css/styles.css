@@ -169,13 +169,16 @@ body {
     color: #666;
     margin-bottom: 20px;
 }
+
 /*progressbar*/
 #progressbar {
     margin-bottom: 30px;
+    padding-left: 0;
     overflow: hidden;
     /*CSS counters to number the steps*/
     counter-reset: step;
 }
+
 #progressbar li {
     list-style-type: none;
     color: white;
@@ -185,6 +188,7 @@ body {
     float: left;
     position: relative;
 }
+
 #progressbar li:before {
     content: counter(step);
     counter-increment: step;
