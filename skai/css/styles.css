@@ -16,8 +16,9 @@ body {
     color: white;
 }
 
-.header-txt, h3 {
+.header-txt, h3, h1 {
     font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 .home-logo {
@@ -138,7 +139,6 @@ body {
     width: 100%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: #2C3E50;
     font-size: 13px;
 }
 /*buttons*/
@@ -156,6 +156,7 @@ body {
 #msform .action-button:hover, #msform .action-button:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 3px red;
 }
+
 /*headings*/
 .fs-title {
     font-size: 15px;
@@ -230,6 +231,7 @@ body {
 .footer {
     background-color: black;
 }
+
 
 /* Style all font awesome icons */
 .fa {
