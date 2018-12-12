@@ -11,7 +11,6 @@
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Six+Caps" rel="stylesheet">
@@ -19,10 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>SKAI : FLIGHTS</title>
+    <title>SKAI : Sign In</title>
 </head>
 <body>
-<div class="container-fluid big-banner full-width">
+<div class="container-fluid big-banner-member full-width">
     <div class="container-fluid header pb-2 text-center">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -43,34 +42,34 @@
                     <a href="index.html">HOME</a>
                     <a href="about.html">ABOUT</a>
                     <a href="#">DRONES</a>
-                    <a href="flights.html" class="btn disabled">FLIGHTS</a>
+                    <a href="flights.html">FLIGHTS</a>
                     <a href="#">SKAI LIVE</a>
                     <a href="#">FAQ</a>
-                    <a href="signin.html">SIGN IN</a>
+                    <a href="#" class="btn disabled">SIGN IN</a>
                 </div>
             </div>
 
         </div>
+
         <!-- Use any element to open/show the overlay navigation menu -->
         <span onclick="openNav()" class="header-txt btn">MENU</span>
     </div>
 
-    <div class="row justify-content-center">
-        <h1 class="header-txt mt-5 mb-4 text-center">Where Would You Like To SKAI Today?</h1>
+    <div class="container-fluid full-width" style="height: 425px;">
+        <div class="mb-5">
+            <!-- multistep form -->
+            <form id="msform">
+                <!-- fieldsets -->
+                <fieldset>
+                    <h2 class="fs-title mt-3 mb-5">Member Sign In</h2>
+                    <input type="text" name="email" placeholder="Email" />
+                    <input type="password" name="pass" placeholder="Password" />
+                    <input type="button" name="next" class="next action-button" value="Sign In" /><br>
+                    <a href="#" class="password">Forgot Password?</a>
+                </fieldset>
+            </form>
+        </div>
     </div>
-
-    <div class="row justify-content-center mb-5">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Destination City" aria-label="Search">
-            <button class="btn btn-red my-2 my-sm-0" type="submit">Go</button>
-        </form>
-    </div>
-
-    <div class="row text-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11288.714914032145!2d-93.29175705!3d44.98068025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1543421172084" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
-    </div>
-
 
     <div class="container-fluid header pb-2 footer">
         <div class="row footer justify-content-center">
@@ -92,20 +91,19 @@
                 &nbsp; | &nbsp;
                 <a href="#" class="footer-links">Drones</a>
                 &nbsp; | &nbsp;
-                <a href="#" class="footer-links btn disabled p-0 disabled-color">Flights</a>
+                <a href="flights.html" class="footer-links">Flights</a>
                 &nbsp; | &nbsp;
                 <a href="#" class="footer-links">SKAI Live</a>
                 &nbsp; | &nbsp;
                 <a href="#" class="footer-links">FAQ</a>
                 &nbsp; | &nbsp;
-                <a href="signin.html" class="footer-links">Sign In</a>
+                <a href="signin.html" class="footer-links btn disabled p-0 disabled-color">Sign In</a>
             </p>
         </div>
     </div>
     <div class="row footer justify-content-center cpyrt-color">
         <p class="copyright pt-2"> COPYRIGHT BY KAT SANCHEZ  &nbsp; | &nbsp;  FALL 2019  &nbsp; | &nbsp;  MCTC WEBI2023</p>
     </div>
-
 </div>
 
 

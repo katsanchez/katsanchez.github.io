@@ -91,8 +91,22 @@ body {
     border-radius: 0;
 }
 
+.btn-light {
+    border-color: #D7AF62;
+    border-width: 3px;
+}
+
 .big-banner {
     background-image: url("../img/background-img.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+.big-banner-member {
+    background-image: url("../img/passenger-drone.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -232,7 +246,6 @@ body {
     background-color: black;
 }
 
-
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -283,4 +296,45 @@ body {
     color: red;
     font-size: 75%;
     font-family: 'Raleway', sans-serif;
+}
+
+.copyright {
+    font-size: 50%;
+}
+
+.cpyrt-color {
+    background-color: #333333;
+    color: white;
+}
+
+.btn.disabled {
+    opacity: 1;
+}
+
+.disabled-links {
+    color: white;
+    font-size: 75%;
+}
+
+.disabled-color {
+    color: #D7AF62;
+}
+
+.btn-red {
+    background-color: red;
+    color: #D7AF62;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.next:focus, .next:active {
+    outline: none; !important;
+    box-shadow: red; !important;
+}
+
+.password {
+    font-size: x-small;
+    color: dimgray;
 }

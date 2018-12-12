@@ -11,7 +11,6 @@
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Six+Caps" rel="stylesheet">
@@ -19,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>SKAI : FLIGHTS</title>
+    <title>SKAI : Passenger Drone Rides</title>
 </head>
 <body>
 <div class="container-fluid big-banner full-width">
@@ -40,10 +39,10 @@
             <!-- Overlay content -->
             <div class="container">
                 <div class="overlay-content header-txt">
-                    <a href="index.html">HOME</a>
-                    <a href="about.html">ABOUT</a>
+                    <a href="#">HOME</a>
+                    <a href="about.html" class="btn disabled">ABOUT</a>
                     <a href="#">DRONES</a>
-                    <a href="flights.html" class="btn disabled">FLIGHTS</a>
+                    <a href="flights.html">FLIGHTS</a>
                     <a href="#">SKAI LIVE</a>
                     <a href="#">FAQ</a>
                     <a href="signin.html">SIGN IN</a>
@@ -51,25 +50,74 @@
             </div>
 
         </div>
+
         <!-- Use any element to open/show the overlay navigation menu -->
         <span onclick="openNav()" class="header-txt btn">MENU</span>
     </div>
 
-    <div class="row justify-content-center">
-        <h1 class="header-txt mt-5 mb-4 text-center">Where Would You Like To SKAI Today?</h1>
+    <div class="container-fluid full-width" style="height: 100px;">
+        <h1 class="text-center mt-5">Everything you need to know</h1>
+    </div>
+    <div class="container-fluid full-width bg-color">
+            <div class="row">
+                <div class="card text-right text-white bg-dark my-auto" style="width: 31rem;">
+                    <div class="card-body mr-2">
+                        <h3 class="card-title header-txt">Drone Safety</h3>
+                        <p class="card-text">The key to the passenger drone's operations is its automated flight system; its flight computer pulls data from onboard sensors and uses satellite navigation to chart the safest path. If damaged, it's designed to make a controlled descent to safe ground.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-color mx-auto">
+                    <div class="card-body">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NHmT4pKFjgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+
+
     </div>
 
-    <div class="row justify-content-center mb-5">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Destination City" aria-label="Search">
-            <button class="btn btn-red my-2 my-sm-0" type="submit">Go</button>
-        </form>
+    <div class="container-fluid full-width" style="height: 100px;">
+        <h1 class="text-center mt-5">Meet the Fleet : 3 Drone Levels</h1>
     </div>
 
-    <div class="row text-center">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11288.714914032145!2d-93.29175705!3d44.98068025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1543421172084" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
+    <div class="header">
+        <div class="row">
+            <div class="col mt-4 mb-4">
+                <div class="mx-auto card text-white bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/lilium-jet.jpg" alt="" width="250" class="mb-3">
+                        <h4 class="card-title header-txt">First Class : Lilium Jet</h4>
+                        <p class="card-text">Combining top speed with sleek design. Get to where you need to go before anyone else.</p>
+                        <button type="button" class="btn btn-light">More Info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-4 mb-4">
+                <div class="mx-auto card text-white bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/airbus.jpg" alt="" width="250" class="mb-3">
+                        <h4 class="card-title header-txt">Second Class : Airbus</h4>
+                        <p class="card-text">Flying with friends? No problem. The airbus can fly up to 4 passengers.</p>
+                        <button type="button" class="btn btn-light">More Info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-4 mb-4">
+                <div class="mx-auto card text-white bg-dark" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/ehang.jpg" alt="" width="250" class="mb-3">
+                        <h4 class="card-title header-txt">Third Class : Ehang</h4>
+                        <p class="card-text">Know how to fly? Our single passenger drone. Completely safe, completely private.</p>
+                        <button type="button" class="btn btn-light">More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+</div>
 
 
     <div class="container-fluid header pb-2 footer">
@@ -88,11 +136,11 @@
                 &nbsp; | &nbsp;
                 <a href="index.html" class="footer-links">Home</a>
                 &nbsp; | &nbsp;
-                <a href="about.html" class="footer-links">About</a>
+                <a href="about.html" class="footer-links btn disabled p-0 disabled-color">About</a>
                 &nbsp; | &nbsp;
                 <a href="#" class="footer-links">Drones</a>
                 &nbsp; | &nbsp;
-                <a href="#" class="footer-links btn disabled p-0 disabled-color">Flights</a>
+                <a href="flights.html" class="footer-links">Flights</a>
                 &nbsp; | &nbsp;
                 <a href="#" class="footer-links">SKAI Live</a>
                 &nbsp; | &nbsp;
@@ -105,7 +153,6 @@
     <div class="row footer justify-content-center cpyrt-color">
         <p class="copyright pt-2"> COPYRIGHT BY KAT SANCHEZ  &nbsp; | &nbsp;  FALL 2019  &nbsp; | &nbsp;  MCTC WEBI2023</p>
     </div>
-
 </div>
 
 
