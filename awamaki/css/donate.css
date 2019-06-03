@@ -1,0 +1,28 @@
+.learn-btn {
+    background-color: #d82877;
+    color: black;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.learn-btn:hover {
+    background-color: #5f8cb5;
+    color: white;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.btn-outline-secondary-donate {
+    border-color: #d82877;
+}
+
+.btn-outline-secondary-donate:hover {
+    border-color: #5f8cb5;
+}
+
+.intro-heading {
+    font-size: 350%;
+}

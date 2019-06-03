@@ -1,0 +1,46 @@
+.card-text {
+    font-size: 110%;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+}
+
+.card-body {
+    border: 2px solid white;
+    margin: 1.25rem;
+}
+
+.btn-outline-secondary-learn {
+    border-color: #d82877;
+}
+
+.card-footer {
+    background-color: #d82877;
+    border-top: 0;
+}
+
+.learn-btn {
+    background-color: #d82877;
+    color: white;
+    font-family: 'bebas-neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.learn-btn:hover {
+    background-color: #d8910d;
+    color: black;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #d8910d;
+}

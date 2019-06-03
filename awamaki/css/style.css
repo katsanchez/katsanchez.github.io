@@ -1,0 +1,222 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: #5f8cb5;
+  color: white;
+}
+
+a, .header-txt {
+  font-family: 'bebas-neue', sans-serif;
+  letter-spacing: 8px;
+  font-size: 35px;!important;
+}
+
+h3, h6 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.home-logo {
+  max-width: 300px;
+}
+
+.overlay-logo {
+  text-align: center;
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgba(95,140,181,1); /* Black fallback color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 1s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 0; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover {
+  color: #d82877;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  font-size: 100px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 60px;
+    right: 35px;
+  }
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.header-txt:hover {
+  color: #d82877;
+}
+
+.btn-light {
+  border-color: #D7AF62;
+  border-width: 3px;
+}
+
+a.btn.disabled {
+  text-decoration-line: line-through;
+}
+
+.pink-bgrnd {
+  background-color: #d82877;
+}
+
+.mustard-sec {
+  background-color: #d8910d;
+}
+
+.green-bkgd {
+  background-color: #44847b;
+}
+
+
+.newsletter-heading, .submit-btn {
+  font-family: 'bebas-neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.submit-btn {
+  background-color: #da4b13;
+}
+
+.submit-btn:hover, .submit-btn:active {
+  background-color: #d82877;!important;
+  color: white;
+}
+
+.btn-outline-secondary {
+   border-color: black;
+ }
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active {
+  border-color: #d82877;
+}
+
+.input-group .form-control {
+  z-index: 0;
+}
+
+.form-control {
+  font-family: 'bebas-neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  border-color: black;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #d82877;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube {
+  color: #da4b13;
+}
+
+.footer-logo {
+  max-width: 250px;
+}
+
+.footer-copy, a.top, a.footer-links, a.disabled-footer {
+  color: white;
+  font-size: 75%;
+}
+
+a.top, a.footer-links, a.disabled-footer {
+  letter-spacing: 6px;
+}
+
+a.top:hover, a.footer-links:hover {
+  text-decoration: none;
+  color: #d82877;
+}
+
+ul {
+  list-style: none;
+}
+
+a.disabled-footer {
+  text-decoration-line: line-through;
+  pointer-events: none;
+}
+
+.white-txt {
+  color: white;
+}
+
+.font-size-200 {
+  font-size: 200%;
+}
+
+.font-size-300 {
+  font-size: 300%;
+}
+
+.black-txt {
+  color: black;
+}
+
+.card {
+  border: 0;
+  margin-bottom: 2rem;
+}

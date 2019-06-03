@@ -1,0 +1,16 @@
+a img:hover {
+    transform: scale(1.02);
+}
+
+a img {
+    transition: .6s;
+}
+
+.gallery-row {
+    margin: 30px 60px;
+}
+
+.signature {
+    width: 25%;
+    min-width: 200px;
+}

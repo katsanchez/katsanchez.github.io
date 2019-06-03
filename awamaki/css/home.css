@@ -1,0 +1,24 @@
+.intro-heading {
+    font-size: 350%;
+}
+
+.card-text {
+    font-size: 110%;
+}
+
+#build-icon {
+    width: 32%;
+}
+
+.cat-img {
+    opacity: .5;
+}
+
+.cat-img:hover, .cat-img:active {
+    opacity: 1;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+    width: 25%;
+}
